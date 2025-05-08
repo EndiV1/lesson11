@@ -1,5 +1,7 @@
 file_path = "C:/Users/Student/Desktop/lesson11/leximi.txt"
-file = open(file_path, "r")
+#file = open(file_path, "r")
+## line1 = file.readline()
+  # print(line1)
 
-content = file.read()
-print(content)
+with open(file_path, "w") as file:
+    file.write("hello world")
